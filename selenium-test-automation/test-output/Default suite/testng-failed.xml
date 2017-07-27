@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tests.AutomationTest">
+        <methods>
+          <include name="test_check_dropdownmenu"/>
+          <include name="test_carrer_tab"/>
+          <include name="test_click_team_tab"/>
+          <include name="test_link_to_new_tab"/>
+          <include name="test_page_opened"/>
+          <include name="test_search_result"/>
+          <include name="finish_test"/>
+          <include name="initiate_Automation"/>
+          <include name="test_check_lack_of_dropdownmenu"/>
+        </methods>
+      </class> <!-- com.tests.AutomationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
